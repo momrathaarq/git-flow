@@ -1,14 +1,14 @@
 # README #
 
  - First branch out from master to your local as feature branch
-    - Example: feature/ratha
+    - Example: feature/ticket-131...
  - Make a couple of line changes then for each of the following branches:
     - dev
     - staging
     - uat 
 
     Create a branch off of that with the prefix bridge- 
-    example: bridge-feature/ratha
+    example: bridge-dev-feature/ticket-131...
 
     Then use git cherry-pick using the SHA key created for your commit to select the code from your earlier branch
 
